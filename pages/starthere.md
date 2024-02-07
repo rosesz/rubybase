@@ -7,7 +7,7 @@ nav_order: 2
 Zacznij tutaj! Pierwsze kroki
 {: .fs-8 .ls-10 .code-example .fw-700}
 
-Pora zobaczyć, z czym to całe programowanie się je. Języków, w których można pisać kod, jest wiele, ale proponuję ten o wdzięcznej nazwie **Ruby**. Aby zacząć, nie potrzeba specjalistycznych studiów, przeglądania masy teorii w książkach, a nawet specjalnego przygotowywania swojego komputera (choć na dalszej drodze będzie to konieczne). Dzięki internetowi można po prostu zacząć i uczyć się na bieżąco.
+Pora zobaczyć, z czym je się to całe programowanie. Języków, w których można pisać kod, jest wiele, ale proponuję ten o wdzięcznej nazwie **Ruby**. Aby zacząć, nie potrzeba specjalistycznych studiów, przeglądania masy teorii w książkach, a nawet specjalnego przygotowywania swojego komputera (choć na dalszej drodze będzie to konieczne). Dzięki internetowi można po prostu zacząć i uczyć się na bieżąco.
 
 Świetną stroną, gdzie można spróbować samemu coś napisać i uruchomić, jest **[TryRuby](https://try.ruby-lang.org/)**. Wystarczy wpisać swój kod w okienku _Editor_, kliknąć _Run_, i gotowe.
 
