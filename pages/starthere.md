@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ❣️Zacznij tutaj❣️
+title: Zacznij tutaj
 nav_order: 2
 ---
 ![](../images/intros/starthere.jpg){: width="250" .float-left .mr-3 }
