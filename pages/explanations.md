@@ -1,6 +1,6 @@
 ---
 layout: default
 title: Wyjaśnienia
-nav_order: 6
+nav_order: 7
 ---
 TBD
