@@ -3,4 +3,6 @@ layout: default
 title: Przygotowanie środowiska pracy
 nav_order: 4
 ---
-![](../images/intros/environment.jpg){: width="250" }
+![](../images/intros/environment.jpg){: width="250" .float-left .mr-3 }
+Przygotowanie środowiska pracy
+{: .fs-8 .ls-10 .code-example .fw-700}
