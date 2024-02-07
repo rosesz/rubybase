@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Wyjaśnienia
+title: Zadania
 nav_order: 5
 ---
 TBD
