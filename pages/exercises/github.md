@@ -11,7 +11,6 @@ Wypchnięcie kodu na GitHub
 
 Na pewno bardzo irytujący jest scenariusz, kiedy ma się jako tako działający kod, ale coś pozmienia, niewiadomo co i nic już nie działa... Dzięki gitowi nic straconego, można wrócić do starej wersji, a przy okazji podzielić się też swoim kodem z innymi.
 
-
 [GitHub](https://github.com) jest jednym z najpopularniejszych miejsc przechowywania repozytoriów kodu. Oto użyć go do własnego projektu (np. Greetera z poprzedniego zadania):
 -  wejdź  [tutaj](https://github.com/new), aby stworzyć nowe repo o nazwie  `exercises`  [https://github.com/new](https://github.com/new)
 -  proszę NIE zaznaczaj opcji, żeby stworzyć plik readme (nie jest potrzebny)
