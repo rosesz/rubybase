@@ -17,5 +17,8 @@ callouts:
   highlight:
     title: Ćwiczenie
     color: yellow
+  new:
+    title: Ciekawostka
+    color: green
 
 
