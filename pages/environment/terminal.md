@@ -17,11 +17,11 @@ Tak więc, terminal to taki prosty, ale potężny sposób, aby mieć bardziej pr
 
 Więcej o wierszu poleceń można przeczytać [tutaj](https://ubuntu.com/tutorials/command-line-for-beginners).
 
-Ćwiczenia
-1. Otwórz terminal (lub wiersz polecenia).
-2. Utwórz nowy katalog o nazwie `cwiczenie` przy użyciu komendy `mkdir`.
-3. Przejdź do tego nowo utworzonego katalogu za pomocą komendy `cd`.
-4. Wewnątrz katalogu `cwiczenia` utwórz kolejne dwa podkatalogi: `katalog1` i `katalog2`.
-5. Wykorzystaj komendę `ls`, aby wylistować zawartość bieżącego katalogu i upewnij się, że utworzone katalogi są widoczne.
-6. Przejdź z powrotem do katalogu nadrzędnego używając komendy `cd ..`.
-7. Odszukaj uwtorzony przez siebie katalog korzystając ze standardowego graficznego interfejsu i eksplorera plików. Zobacz, czy utowrzone przez Ciebie katalogi przez linię poleceń są również widoczne w tym trybie.
+{: .note-title }
+> 1. Otwórz terminal (lub wiersz polecenia).
+> 2. Utwórz nowy katalog o nazwie `cwiczenie` przy użyciu komendy `mkdir`.
+> 3. Przejdź do tego nowo utworzonego katalogu za pomocą komendy `cd`.
+> 4. Wewnątrz katalogu `cwiczenia` utwórz kolejne dwa podkatalogi: `katalog1` i `katalog2`.
+> 5. Wykorzystaj komendę `ls`, aby wylistować zawartość bieżącego katalogu i upewnij się, że utworzone katalogi są widoczne.
+> 6. Przejdź z powrotem do katalogu nadrzędnego używając komendy `cd ..`.
+> 7. Odszukaj uwtorzony przez siebie katalog korzystając ze standardowego graficznego interfejsu i eksplorera plików. Zobacz, czy utowrzone przez Ciebie katalogi przez linię poleceń są również widoczne w tym trybie.
