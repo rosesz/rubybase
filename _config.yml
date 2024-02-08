@@ -6,3 +6,16 @@ url: https://rosesz.github.io/rubybase
 
 aux_links:
   Template Repository: https://github.com/rosesz/rubybase
+
+callouts:
+  warning:
+    title: Uwaga
+    color: red
+  note:
+    title: Wskazówka
+    color: purple
+  highlight:
+    title: Ćwiczenie
+    color: purple
+
+
