@@ -5,6 +5,9 @@ parent: Zadania
 nav_order: 2
 ---
 ![](../../images/intros/greeter.jpg){: width="250" .float-left .mr-3 }
+Zadanie – Pozdrawiacz (Greeter) w Ruby
+{: .fs-8 .ls-10 .code-example .fw-700}
+
 Zadanie polega na stworzeniu Pozdrawiacza w ruby.
 
 Plik nazywał się będzie `greeter.rb` i będzie uruchamiany w ten sposób:
