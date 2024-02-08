@@ -4,7 +4,7 @@ title: Wirtualna Maszyna z Linuksem
 parent: Przygotowanie środowiska pracy
 nav_order: 2
 ---
-![](../images/intros/virtualmachine.jpg){: width="250" .float-left .mr-3 }
+![](../../images/intros/virtualmachine.jpg){: width="250" .float-left .mr-3 }
 Przygotowanie środowiska pracy
 {: .fs-8 .ls-10 .code-example .fw-700}
 Planując pracować z Ruby trzeba przestawić się z używania najpopularniejszego na komputerach osobistych systemu Windows, na któryś z rodziny systemów unixowych, takich jak Linux czy MacOS. Unixowe środowiska, dzięki wspólnym narzędziom, łatwiej obsługują kompilatory, systemy bibliotek oraz inne narzędzia potrzebne do budowy Ruby i bibliotek (gemów). Ruby, rozwijany pierwotnie na komputerach z systemem Unix, miał zawsze pierwszeństwo w dostosowywaniu się do tych systemów. W rezultacie, rozwijanie kodu Ruby na Windowsie wiązało się z problemami, których użytkownicy Maca czy Linuxa zazwyczaj nie doświadczają. W poszukiwaniu pomocy czy odpowiedzi na problemy, użytkownicy Windowsa mogą napotkać ograniczoną dostępność informacji w porównaniu do użytkowników innych systemów. Dlatego planując wdrożenie swojego kodu, warto rozważyć, na jakiej platformie chce się go uruchomić. Na przykład, tworząc aplikację w Ruby on Rails, prawdopodobnie będzie wdrożona na serwerze z systemem Linux. Względna zgodność środowiska deweloperskiego z produkcyjnym może pomóc uniknąć nieoczekiwanych komplikacji po uruchomieniu kodu na żywo.
