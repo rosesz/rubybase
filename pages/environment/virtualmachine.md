@@ -14,3 +14,7 @@ Na szczęście nie trzeba od razu rzucać się na głęboką wodę i przeinstalo
 - **Pobierz VirtualBox:** Zacznij od pobrania VirtualBox - narzędzia, które pozwoli ci stworzyć tę wirtualną skrzynkę. Kliknij na link _Windows hosts_ [tutaj](https://www.virtualbox.org/wiki/Downloads).
 - **Wybierz Dystrybucję Linuxa:** Następnie musisz wybrać wersję Linuxa, którą chcesz uruchomić w swojej wirtualnej maszynie. Dla początkujących polecam [Ubuntu](https://ubuntu.com/download/desktop) - jest popularne i łatwe w użyciu.
 - **Konfiguracja VirtualBox:** Po pobraniu obu narzędzi, znajdziesz w internecie wiele prostych instrukcji, które krok po kroku pokażą ci, jak skonfigurować VirtualBox i zainstalować Ubuntu na maszynie wirtualnej. [Przykładowy tutorial tutaj](https://www.howtogeek.com/796988/how-to-install-linux-in-virtualbox/). Dzięki temu, będziesz mogła używać Ruby na systemie Unix, nawet jeśli na co dzień pracujesz na komputerze z systemem operacyjnym Windows.
+
+Dodatkowo w razie problemów z wydajnością bądź kopiowaniem, mogą być koieczne dalsze kroki:
+- [Instalacja Guest Additions](https://www.youtube.com/watch?v=zdkl16oAS1k)
+- [Włączenie kopiowania](https://codetryout.com/virtualbox-ubuntu-enable-copy-paste/)
