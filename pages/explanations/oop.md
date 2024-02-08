@@ -7,13 +7,13 @@ nav_order: 2
 ![](../../images/intros/oop.jpg){: width="250" .float-left .mr-3 }
 Programowanie obiektowe
 {: .fs-8 .ls-10 .code-example .fw-700}
-### Wstęp
+## Wstęp
 Obiekty, obiekty... ten termin ciagle pojawia się przy nauce programowania i może przyprawiać o ból głowy 🙂
 Na początek troche teorii:
 - [O metodach](https://www.theodinproject.com/lessons/ruby-methods)
 - [O klasach](https://www.codecademy.com/courses/learn-ruby/lessons/object-oriented-programming-i/exercises/why-classes)
 
-### Pierwszy przykład
+## Pierwszy przykład
 Przykład programowania obiektowego:
 ```
 # Najpierw definiujemy klasę, żeby móc poźniej tworzyć obiekty tej klasy
@@ -46,7 +46,7 @@ ruby sciezka/do/pliku/example.rb
 ```
 Lub skorzstać z narzędzie online do uruchamiania kodu, jak np. [TryRuby](https://try.ruby-lang.org/) bądź [Replit](https://replit.com/languages/ruby).
 
-### Metoda `initialize` – konstruktor
+## Metoda `initialize` – konstruktor
 Metoda  `initialize`  to taka specjalna metoda, która odpala się tylko raz, kiedy tworzysz obiekt. Często mówi się o tej metodzie, że to jest „konstruktor”. Czyli w momencie, kiedy tworzysz obiekt, w np. `Greeter.new`, tak naprawdę pod spodem wywoływana jest metoda  `initalize`  właśnie, można sobie wyobrazić w głowie, że jest to coś w stylu (uwaga, to niepoprawny kod)  Greeter.initialize. Dodając argumenty do metody `initialize`, czyli np. minutes, to można ich używać tworząc obiekt (wołając metodę `new`), np. `Greeter.new(25)`. Idąc dalej tym tropem można by dodać więcej argumentów, modyfikując metodę `initalize`:  
 ```
 def initalize(minutes, hour)
@@ -56,7 +56,7 @@ end
 ```
 I używając tego następnie podać wszystkie argumenty tworząc obiekt `Greeter.new(25, 9)` 
 
-### Zmienne w obiektach
+## Zmienne w obiektach
 W ruby mamy dwa rodzaje zmiennych, lokalne (takie używane tylko w obrębie jednej metody i nigdzie więcej) oraz pola obiektu. Pola obiektu to właśnie te z @ 🙂 Jak już było wspomniane jeden obiekt może mieć wiele metod. Wracając do przykładu z psami:  
 ```
 class Pies

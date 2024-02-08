@@ -8,13 +8,13 @@ nav_order: 2
 Wypisywanie tekstu
 {: .fs-8 .ls-10 .code-example .fw-700}
 
-### Zmienne tekstowe
+## Zmienne tekstowe
 Tekst zawsze musi być opakowany albo w `"` albo w `'` (jest jeszcze trzecia opcja że tekst będzie tzw. symbolem, ale to taki specyficzny rodzaj tylko dla krótkich słów więc na razie go pomińmy – ale stosuje się wtedy dwukropek).
 
 Gołe słowa w kodzie nie opakowane w pazurki Ruby traktuje jako część kodu, tzn. będzie myślał że to jest albo zmienna albo metoda. Omyłkowe użycie zwróci - `undefined variable or method`. 
 
 
-### Wypisywanie zmiennych
+## Wypisywanie zmiennych
 Jest kilka sposobów wypisywania zmiennych na ekran, np.
 ```
 puts "początek tekstu" + zmienna + " koniec tekstu"
@@ -48,7 +48,7 @@ a = "15"
 "Pierwsza część " + a.to_s + "druga część"
 ```
 
-### Porównanie `print` vs `puts`
+## Porównanie `print` vs `puts`
 
 Różnica jest taka, że `puts` wpisuje tekst na ekran i od razu potem przechodzi do nowej linii.
 ```
