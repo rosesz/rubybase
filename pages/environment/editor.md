@@ -7,6 +7,12 @@ nav_order: 4
 ![](../../images/intros/editor.jpg){: width="250" .float-left .mr-3 }
 Edytor tekstu
 {: .fs-8 .ls-10 .code-example .fw-700}
+
+{: .note-title }
+> Wskazówka
+>
+> Na szybki start proponuję zacząć od [Sublime Text](https://www.sublimetext.com/)
+
 Edytor tekstu jest bardzo ważnym narzędziem dla każdego programisty. Używając go spędzamy sporą część czasu pracy, dzień w dzień. Interfejs czy rozwiązania zastosowane w danym edytorze muszą pasować do naszych zwyczajów. Do wyboru są programy (występujące pod nazwą IDE), które bardzo ułatwiają pisanie kodu poprzez inteligentne podpowiedzi czy zintegrowane pomocne narzędzia. Można też zupełnie inaczej podejść, wybierając lekkie i minimalistyczne edytory - to kwestia osobistych preferencji.
 Ważne jest, aby wybrać edytor dedykowany do programowania i wspierający konkretny język programowania. Jest to niezwykle istotne ze względu na kolorowanie składni. Na upartego, kod można edytować nawet w zwykłym notatniku wbudowanym w system, ale zdecydowanie nie jest to zalecane, ponieważ ciężko będzie dostrzec, czy składnia jest poprawna.
 
