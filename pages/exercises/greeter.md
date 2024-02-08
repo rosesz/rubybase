@@ -15,7 +15,7 @@ Plik nazywał się będzie `greeter.rb` i będzie uruchamiany w ten sposób:
 ruby greeter.rb
 ```
 W środku pliku stwórz klasę nową klasę Greetera, a następnie obiekt typu Greeter. W ruby wszystko zawsze jest jakimś obiektem i te obiekty odpalają swoje funkcje. W fekcie powstanie coś w tym stylu:
-```
+```ruby
 class Greeter
 # tu będzie kod tej klasy
 end

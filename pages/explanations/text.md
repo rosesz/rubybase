@@ -16,7 +16,7 @@ Gołe słowa w kodzie nie opakowane w pazurki Ruby traktuje jako część kodu, 
 
 ## Wypisywanie zmiennych
 Jest kilka sposobów wypisywania zmiennych na ekran, np.
-```
+```ruby
 puts "początek tekstu" + zmienna + " koniec tekstu"
 ```
 
@@ -32,18 +32,18 @@ puts "początek tekstu #{zmienna} koniec tekstu"
 
 Natomiast kiedy jedna ze zmiennych jest liczbą:
 
-```
+```ruby
 a = 15
 "Pierwsza część " + a + "druga część"
 ```
 Nie zadziała, bo 15 jest liczbą. Za to poniższe by zadziałało:  
-```
+```ruby
 a = "15"
 "Pierwsza część " + a + "druga część"
 ```
 Rozwiązaniem problemu jest dodanie  `to_s`  czyli rzutowania na stringa:  
 
-```
+```ruby
 a = "15"
 "Pierwsza część " + a.to_s + "druga część"
 ```
@@ -51,10 +51,10 @@ a = "15"
 ## Porównanie `print` vs `puts`
 
 Różnica jest taka, że `puts` wpisuje tekst na ekran i od razu potem przechodzi do nowej linii.
-```
+```ruby
 > print 1,2,3
 ```
-```
+```ruby
 123
 > puts 1,2,3
 

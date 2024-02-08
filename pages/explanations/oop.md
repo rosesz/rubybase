@@ -15,7 +15,7 @@ Na początek troche teorii:
 
 ## Pierwszy przykład
 Przykład programowania obiektowego:
-```
+```ruby
 # Najpierw definiujemy klasę, żeby móc poźniej tworzyć obiekty tej klasy
 # Obiekt to jakaś zmienna w ruby, która została stworzona według konkretnego wzorca
 # i możemy od tego oobiektu oczekiwać, że będzie miał konkretne właściwości.
@@ -48,7 +48,7 @@ Lub skorzstać z narzędzie online do uruchamiania kodu, jak np. [TryRuby](https
 
 ## Metoda `initialize` – konstruktor
 Metoda  `initialize`  to taka specjalna metoda, która odpala się tylko raz, kiedy tworzysz obiekt. Często mówi się o tej metodzie, że to jest „konstruktor”. Czyli w momencie, kiedy tworzysz obiekt, w np. `Greeter.new`, tak naprawdę pod spodem wywoływana jest metoda  `initalize`  właśnie, można sobie wyobrazić w głowie, że jest to coś w stylu (uwaga, to niepoprawny kod)  Greeter.initialize. Dodając argumenty do metody `initialize`, czyli np. minutes, to można ich używać tworząc obiekt (wołając metodę `new`), np. `Greeter.new(25)`. Idąc dalej tym tropem można by dodać więcej argumentów, modyfikując metodę `initalize`:  
-```
+```ruby
 def initalize(minutes, hour)
   @minutes = minutes
   @hour = hour
@@ -58,7 +58,7 @@ I używając tego następnie podać wszystkie argumenty tworząc obiekt `Greeter
 
 ## Zmienne w obiektach
 W ruby mamy dwa rodzaje zmiennych, lokalne (takie używane tylko w obrębie jednej metody i nigdzie więcej) oraz pola obiektu. Pola obiektu to właśnie te z @ 🙂 Jak już było wspomniane jeden obiekt może mieć wiele metod. Wracając do przykładu z psami:  
-```
+```ruby
 class Pies
   def szczekaj
     "Hau Hau"
@@ -70,7 +70,7 @@ class Pies
 end
 ```
 Zmodyfikujmy go trochę, że pies będzie szczekał capslokiem albo nie, w zależności od tego, czy jest mały czy duży 🙂  
-```
+```ruby
   def szczekaj(rozmiar)
     if rozmiar == "mały"
       "Hau Hau"
@@ -80,13 +80,13 @@ Zmodyfikujmy go trochę, że pies będzie szczekał capslokiem albo nie, w zale�
   end
 ```
 I teraz używamy tego kodu w ten sposób:  
-```
+```ruby
 azor = Pies.new # tworzymy nowy obiekt typu Pies i przypisujemy do zmiennej azor
 azor.szczekaj("mały") # wypisze "Hau Hau"
 azor.szczekaj("duży") # wypisze "HAU HAU"
 ```
 Taki kod działa, ale jak się o nim pomyśli to jest trochę bez sensu. Dlaczego azor może być nagle duży albo mały? To jeden pies, jego rozmiar się nie zmieni. Poza tym problem pojawia się z metodą  `warcz`, ona nic nie wie o rozmiarze psa. Trzeba by również i tę metodę zmodyfikować i przesłać rozmiar psa w argumencie, trochę bez sensu. I tu właśnie przydaje się konstruktor.  
-```
+```ruby
 class Pies
   def initialize(rozmiar)
     @rozmiar = rozmiar
@@ -110,7 +110,7 @@ class Pies
 end
 ```
 Teraz możemy tego użyć w ten sposób, metoda  `szczekaj`  może już nie mieć żadnych argumentów. Po prostu w obrębie tego samego psa argumenty przekazane w konstruktorze a następnie przypisane do pól obiektu (tych z @) są już znane.
-```
+```ruby
 azor = Pies.new("mały")
 burek = Pies.new("duży)
 
@@ -122,7 +122,7 @@ burek.warcz # WRRR
 ```
 W konstruktorze można podać dowolną ilość parametrów, nie tylko jeden. W przypadku psa warto podać rasę, imię itp. Bo to są cechy, które po tym jak tworzymy nowego psa już się raczej nie zmienią  
 Dla odmiany są zmienne, które powinny pozostać zmiennymi lokalnymi. Przykładowo powiedzmy, że tylko w metodzie  `szczekaj`  nie chcemy ręcznie pisać za każdym razem “Hau”, tylko żeby ruby zrobiło to za nas. Liczbę tę przypiszemy sobie na sztywno do zmiennej  `ile_razy`. To jest tylko pomocnicza zmienna w obrębie tej metody, nie potrzebujemy jej gdzie indziej ani nie jest bezpośrednio związana z psem.  
-```
+```ruby
   def szczekaj
     ile_razy = 5
     if @rozmiar == "mały"
@@ -134,7 +134,7 @@ Dla odmiany są zmienne, które powinny pozostać zmiennymi lokalnymi. Przykład
 ```
 Gdybym teraz w metodzie  `warcz`  spróbowała użyć  `ile_razy`  to poleciałby błąd, bo to lokalna zmienna tylko na potrzeby  `szczekaj`. Na końcu znajdzie się kompletny przykład, można go pobrać i uruchomić u siebie.
 Jeszcze jedna sprawa na koniec, w konstruktorze jest dużo takiego powtarzania się:  
-```
+```ruby
   def initialize(rozmiar, imie, rasa)
     @rozmiar = rozmiar
     @imie = imie
@@ -144,7 +144,7 @@ Jeszcze jedna sprawa na koniec, w konstruktorze jest dużo takiego powtarzania s
 To dlatego, że np.  `rasa`  to tylko lokalna zmienna i inne metody poza  `initialize`  nic o niej nie wiedzą. Dlatego musimy skopiować wartość do zmiennej  `@rasa`  (to dwie różne zmienne, mimo, że wyglądają podobnie), która już będzie widziana przez inne metody w psie.
 
 Zmodifikowany przykład w całości, gotowy do uruchomienia:
-```
+```ruby
 class Pies
   def initialize(rozmiar, imie, rasa)
     @rozmiar = rozmiar
