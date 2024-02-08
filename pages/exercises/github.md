@@ -16,35 +16,35 @@ Na pewno bardzo irytujący jest scenariusz, kiedy ma się jako tako działający
 -  proszę NIE zaznaczaj opcji, żeby stworzyć plik readme (nie jest potrzebny)
 -  repo zrób publiczne, żebym mogła je widzieć
 -  otwórz terminal i wpisz
-```
+```console
 git clone git@github.com:rosesz/exercises.git
 ```
 
 Na dysku pojawi się nowy katalog  `exercises`  i to w nim stworzysz plik  `greeter.rb`. Kod będzie wtedy uruchamiany tak (jeśli jesteś w domyślnym katalogu w terminalu):  
-```
+```console
 ruby exercises/greeter.rb
 ```
 można też wejść do tego folderu:  
-```
+```console
 cd exercises
 ```
 I wtedy nie trzeba już za każdym razem podawać ścieżki 🙂
 Teraz możesz stworzyć pierwszą wersję pliku  `greeter.rb`  
 Każde zmiany w kodzie przed zapisaniem w gicie trzeba najpierw dodać. Możesz to zrobić na dwa sposoby:  
-```
+```console
 git add greeter.rb
 ```
 To doda tylko ten jeden plik  
-```
+```console
 git add .
 ```
 To doda wszystkie pliki w projekcie. Na tym etapie jest tylko jeden, więc to nie ma znaczenia 🙂
 Po tym kroku musisz jeszcze zapisać swoje zmiany i jakoś je opisać:  
-```
+```console
 git commit -m "Created greeter.rb"
 ```
 Na koniec zmiany trzeba wypchnąć na githuba  
-```
+```console
 git push origin main
 ```
 I voilà! Teraz będę widzieć kod, który stworzyłaś, a ty będziesz miała do niego zawsze dostęp, nawet jak np. Twój komputer się zepsuje. Przy kolejnych zmianach powtarzasz kroki, tj. dodajesz zmienione pliki, opisujesz zmiany, wypychasz 💪
