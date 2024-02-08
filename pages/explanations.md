@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Wyjaśnienia
+has_children: true
 nav_order: 7
 ---
 ![](../images/intros/explanations.jpg){: width="250" .float-left .mr-3 }
