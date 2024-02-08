@@ -4,7 +4,7 @@ title: Wypisywanie tekstu
 parent: Wyjaśnienia
 nav_order: 2
 ---
-![](../../images/intros/oop.jpg){: width="250" .float-left .mr-3 }
+![](../../images/intros/text.jpg){: width="250" .float-left .mr-3 }
 Wypisywanie tekstu
 {: .fs-8 .ls-10 .code-example .fw-700}
 
@@ -36,12 +36,12 @@ Natomiast kiedy jedna ze zmiennych jest liczbą:
 a = 15
 "Pierwsza część " + a + "druga część"
 ```
-nie zadziała, bo 15 jest liczbą. za to poniższe by zadziałało:  
+Nie zadziała, bo 15 jest liczbą. Za to poniższe by zadziałało:  
 ```
 a = "15"
 "Pierwsza część " + a + "druga część"
 ```
-rozwiązaniem problemu jets dodanie  `to_s`  czyli rzutowania na stringa:  
+Rozwiązaniem problemu jest dodanie  `to_s`  czyli rzutowania na stringa:  
 
 ```
 a = "15"

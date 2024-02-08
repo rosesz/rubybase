@@ -7,12 +7,13 @@ nav_order: 2
 ![](../../images/intros/oop.jpg){: width="250" .float-left .mr-3 }
 Programowanie obiektowe
 {: .fs-8 .ls-10 .code-example .fw-700}
-
+### Wstęp
 Obiekty, obiekty... ten termin ciagle pojawia się przy nauce programowania i może przyprawiać o ból głowy 🙂
 Na początek troche teorii:
 - [O metodach](https://www.theodinproject.com/lessons/ruby-methods)
 - [O klasach](https://www.codecademy.com/courses/learn-ruby/lessons/object-oriented-programming-i/exercises/why-classes)
 
+### Pierwszy przykład
 Przykład programowania obiektowego:
 ```
 # Najpierw definiujemy klasę, żeby móc poźniej tworzyć obiekty tej klasy
@@ -45,15 +46,18 @@ ruby sciezka/do/pliku/example.rb
 ```
 Lub skorzstać z narzędzie online do uruchamiania kodu, jak np. [TryRuby](https://try.ruby-lang.org/) bądź [Replit](https://replit.com/languages/ruby).
 
-
-Metoda  `initialize`  to taka specjalna metoda, która odpala się tylko raz, kiedy tworzysz obiekt. Często mówi się o tej metodzie, że to jest „konstruktor”. Czyli w momencie, kiedy tworzysz obiekt, w np. Greeter.new, tak naprawdę pod spodem wywoływana jest metoda  `initalize`  właśnie, można sobie wyobrazić w głowie, że jest to coś w stylu (to niepoprawny kod jak coś)  `Greeter.initialize`. Jak dodajesz argumenty do metody initialize, czyli w Twoim przypadku minutes, to możesz ich używać tworząc obiekt (wołając metodę new), np. Greeter.new(25). Idąc dalej tym tropem mogłabyś dodać więcej argumentów, modyfikując metodę initalize:  
+### Metoda `initialize` – konstruktor
+Metoda  `initialize`  to taka specjalna metoda, która odpala się tylko raz, kiedy tworzysz obiekt. Często mówi się o tej metodzie, że to jest „konstruktor”. Czyli w momencie, kiedy tworzysz obiekt, w np. `Greeter.new`, tak naprawdę pod spodem wywoływana jest metoda  `initalize`  właśnie, można sobie wyobrazić w głowie, że jest to coś w stylu (uwaga, to niepoprawny kod)  Greeter.initialize. Dodając argumenty do metody `initialize`, czyli np. minutes, to można ich używać tworząc obiekt (wołając metodę `new`), np. `Greeter.new(25)`. Idąc dalej tym tropem można by dodać więcej argumentów, modyfikując metodę `initalize`:  
 ```
 def initalize(minutes, hour)
   @minutes = minutes
   @hour = hour
 end
 ```
-I używając tego następnie podając wszystkie argumenty tworząc obiekt  `Greeter.new(25, 9)`Ogólnie to użycie initialize akurat nie było konieczne, ale jak to w programowaniu, wszystko można robić na różne sposoby. W ruby mamy dwa rodzaje zmiennych, lokalne (takie używane tylko w obrębie jednej metody i nigdzie więcej) oraz pola obiektu. Pola obiektu to właśnie te z @ 🙂 Jak może wiesz jeden obiekt może mieć wiele różnych metod. Jak może pamiętasz z przykładu z psami:  
+I używając tego następnie podać wszystkie argumenty tworząc obiekt `Greeter.new(25, 9)` 
+
+### Zmienne w obiektach
+W ruby mamy dwa rodzaje zmiennych, lokalne (takie używane tylko w obrębie jednej metody i nigdzie więcej) oraz pola obiektu. Pola obiektu to właśnie te z @ 🙂 Jak już było wspomniane jeden obiekt może mieć wiele metod. Wracając do przykładu z psami:  
 ```
 class Pies
   def szczekaj
@@ -65,7 +69,7 @@ class Pies
   end 
 end
 ```
-Zmodyfikujmy go trochę, że pies będzie szczekał capslokiem albo nie, w zależności od tego, czy jest mały czy duży :)  
+Zmodyfikujmy go trochę, że pies będzie szczekał capslokiem albo nie, w zależności od tego, czy jest mały czy duży 🙂  
 ```
   def szczekaj(rozmiar)
     if rozmiar == "mały"
@@ -128,7 +132,7 @@ Dla odmiany są zmienne, które powinny pozostać zmiennymi lokalnymi. Przykład
     end
   end
 ```
-Gdybym teraz w metodzie  `warcz`  spróbowała użyć  `ile_razy`  to poleciałby błąd, bo to lokalna zmienna tylko na potrzeby  `szczekaj`.W osobnym pliku przesyłam kompletny przykład, możesz go pobrać i uruchomić u siebie 
+Gdybym teraz w metodzie  `warcz`  spróbowała użyć  `ile_razy`  to poleciałby błąd, bo to lokalna zmienna tylko na potrzeby  `szczekaj`. Na końcu znajdzie się kompletny przykład, można go pobrać i uruchomić u siebie.
 Jeszcze jedna sprawa na koniec, w konstruktorze jest dużo takiego powtarzania się:  
 ```
   def initialize(rozmiar, imie, rasa)
