@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Przygotowanie środowiska pracy
+has_children: true
 nav_order: 4
 ---
 ![](../images/intros/environment.jpg){: width="250" .float-left .mr-3 }
