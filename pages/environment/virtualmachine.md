@@ -1,0 +1,8 @@
+---
+layout: default
+title: Wirtualna Maszyna z Linuksem
+parent: Przygotowanie środowiska pracy
+---
+Planując pracować z Ruby trzeba przestawić się z używania najpopularniejszego na komputerach osobistych systemu Windows, na któryś z rodziny systemów unixowych, takich jak Linux czy MacOS. Unixowe środowiska, dzięki wspólnym narzędziom, łatwiej obsługują kompilatory, systemy bibliotek oraz inne narzędzia potrzebne do budowy Ruby i bibliotek (gemów). Ruby, rozwijany pierwotnie na komputerach z systemem Unix, miał zawsze pierwszeństwo w dostosowywaniu się do tych systemów. W rezultacie, rozwijanie kodu Ruby na Windowsie wiązało się z problemami, których użytkownicy Maca czy Linuxa zazwyczaj nie doświadczają. W poszukiwaniu pomocy czy odpowiedzi na problemy, użytkownicy Windowsa mogą napotkać ograniczoną dostępność informacji w porównaniu do użytkowników innych systemów. Dlatego planując wdrożenie swojego kodu, warto rozważyć, na jakiej platformie chce się go uruchomić. Na przykład, tworząc aplikację w Ruby on Rails, prawdopodobnie będzie wdrożona na serwerze z systemem Linux. Względna zgodność środowiska deweloperskiego z produkcyjnym może pomóc uniknąć nieoczekiwanych komplikacji po uruchomieniu kodu na żywo.
+
+Na szczęście nie trzeba od razu rzucać się na głęboką wodę i przeinstalowywać całego systemu na naszym komputerze na nowy 😊 Aby zacząć korzystać z Ruby w jego naturalnym środowisku, takim jak Linux, warto zaznajomić się z pojęciem maszyny wirtualnej. Maszyna wirtualna, np. VirtualBox, to rodzaj programu, który pozwala stworzyć wirtualny komputer wewnątrz twojego rzeczywistego komputera. To jak magiczna skrzynka, która pozwala uruchomić inny system operacyjny, jak na przykład Linux, na twoim komputerze Windows.
