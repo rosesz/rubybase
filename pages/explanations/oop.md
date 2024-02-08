@@ -41,7 +41,7 @@ puts burek.szczekaj
 puts burek.warcz
 ```
 Powyższy kod można zapisać na dysku do pliku `example.rb` i uruchomić:
-```console
+```shell
 ruby sciezka/do/pliku/example.rb
 ```
 Lub skorzstać z narzędzie online do uruchamiania kodu, jak np. [TryRuby](https://try.ruby-lang.org/) bądź [Replit](https://replit.com/languages/ruby).

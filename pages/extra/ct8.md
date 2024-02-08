@@ -16,25 +16,25 @@ Należy zacząć od zalogowania się do [panelu](https://panel.ct8.pl/) używaj�
 ![Zezwalanie na uruchamianie własnego oprogramowania](/assets/ct8/1.png)
 
 Kolejnym krokiem będzie zainstalowanie ruby korzystając z [RVM](https://wiki.mydevil.net/RVM). Należy zalogować się na serwer korzystając z danych otrzymanych w mailu:
-```console
+```shell
 ssh nazwaużytkownika@s1.ct8.pl
 ```
 Wykonujemy polecania koniczne do zainstalowania RVM:
-```console
+```shell
 gpg --keyserver hkp://pool.sks-keyservers.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
 ```
-```console
+```shell
 curl -sSL https://get.rvm.io | bash -s stable
 ```
-```console
+```shell
 source .rvm/scripts/rvm
 ```
 Instalujemy wybraną wersję ruby:
-```console
+```shell
 rvm install 2.3 --autolibs=disabled
 ```
 Oraz bundler:
-```console
+```shell
 gem install bundler
 ```
 
@@ -53,10 +53,10 @@ W tym momencie mamy dostępny na serwerze katalog `/usr/home/login/domains/DOMEN
 Bazę danych tworzymy z pozycji menu _MySQL_ lub _PostgreSQL_ w zależności od tego, której z nich chcemy użyć, zakładce _Dodaj bazę_. Poniższy przykład dotyczył będzie _PostgreSQL_. Uzupełniamy pole z nazwą, która będzie w formacie `pXXXXX_nazwabazy` oraz hasło.
 ![Dodawanie domeny](/assets/ct8/4.png)
 Logując się przez SSH możemy sprawdzić dostęp do bazy. Zdalny dostęp do bazy w darmowej wersji hostingu nie jest możliwy.
-```console
+```shell
 pg_isready -d pXXXXX_nazwabazy -h pgsql.ct8.pl -p 5432 -U pXXXXX_nazwabazy
 ```
-```console
+```shell
 psql -d pXXXXX_nazwabazy -h pgsql.ct8.pl -p 5432 -U pXXXXX_nazwabazy
 ```
 Korzystając z linku dostępnego w panelu możliwe jest też zalogowanie się do panelu PhpPgAdmina.
@@ -72,24 +72,24 @@ production:
 ```
 
 Wrażliwe dane najlepiej przechowywać w zmiennych środowiskowych. Możemy dopisać je do pliku ` ~/.bash_profile`.
-```console
+```shell
 nano ~/.bash_profile
 ```
-```console
+```shell
 DATABASE_PASSWORD=password
 ```
-```console
+```shell
 source ~/.bash_profile
 ```
 
 ### Deployment
 
 W tym momencie wystarczy umieścić kod aplikacji w katalogu `/usr/home/login/domains/DOMENA/public_ruby/`. Należy też pamiętać o zainstalowaniu zależności:
-```console
+```shell
 RAILS_ENV=production bundle install
 ```
 Oraz odpaleniu migracji:
-```console
+```shell
 RAILS_ENV=production bundle exec rake db:migrate
 ```
 Może też być konieczne [wygenerowanie credentiali](https://guides.rubyonrails.org/security.html#custom-credentials). Zmienną `SECRET_KEY_BASE` można dopisać do pliku ` ~/.bash_profile`.
@@ -115,7 +115,7 @@ Oraz w pliku `deploy/production.rb`
 server "s1.ct8.pl", user: "nazwaużytkownika", roles: %w{app db web}
 ```
 Aby możliwe było użycie capistrano, na serwerze należy jeszcze uruchomić polecenie:
-```console
+```shell
 ssh-keygen -t rsa -C "your_email@example.com"
 cat ~/.ssh/id_rsa.pub
 ```

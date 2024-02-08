@@ -11,7 +11,7 @@ Zadanie – Pozdrawiacz (Greeter) w Ruby
 Zadanie polega na stworzeniu Pozdrawiacza w ruby.
 
 Plik nazywał się będzie `greeter.rb` i będzie uruchamiany w ten sposób:
-```console
+```shell
 ruby greeter.rb
 ```
 W środku pliku stwórz klasę nową klasę Greetera, a następnie obiekt typu Greeter. W ruby wszystko zawsze jest jakimś obiektem i te obiekty odpalają swoje funkcje. W fekcie powstanie coś w tym stylu:
