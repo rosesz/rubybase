@@ -4,8 +4,8 @@ title: Deploy na ct8
 parent: Extra
 nav_order: 2
 ---
-![](../../images/intros/oop.jpg){: width="250" .float-left .mr-3 }
-Uruchamianie aplikacji ruby on rails na darmowym serwerze ct8
+![](../../images/intros/ct8.jpg){: width="250" .float-left .mr-3 }
+Uruchamianie aplikacji Ruby on Rails na darmowym serwerze ct8
 {: .fs-8 .ls-10 .code-example .fw-700}
 
 [CT8.pl](https://www.ct8.pl/) to darmowy i pozbawiony reklam hosting, którego pełną wersją jest [MyDevil.net](https://www.mydevil.net/). Wspiera on m.in. język ruby. Poniższy artykuł zawiera instrukcję jak uruchomić na serwerze aplikację napisaną w Ruby on Rails.
