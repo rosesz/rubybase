@@ -22,6 +22,8 @@ Niżej możemy podziwiać efekty działania programu. TryRuby oferuje tutorial z
 
 Inną stroną, która ciągle pozwala pisać kod w Ruby bez potrzeby konfigurowania niczego na własnym komputerze, a jednocześnie dającą nieco więcej możliwości niż TryRuby, jest **[Replit](https://replit.com/languages/ruby)**. Wystarczy założyć darmowe konto, kliknąć _Create Repl_, wybrać Ruby, i można działać. Nie ma tutaj natomiast żadnego tutoriala, który prowadziłby nas krok po kroku. Dlatego kod to już musi być własna inwencja lub kierowanie się osobnym kursem.
 
+Inspiracją do poleceń, jakie możemy wpisywać, może być krótki kurs [Ruby w 20 Minut](https://www.ruby-lang.org/pl/documentation/quickstart/).
+
 Podsumowując, TryRuby to dobry opis podstawowych elementów języka Ruby i daje możliwość od razu ich przećwiczenia. Niezależnie od tego, czy na tej stronie czy innej, ucząc się nowej składni, warto od razu być kreatywnym i próbować napisać coś według własnego pomysłu. Na początku może to wydawać się trudne, ale z czasem wszystko nabierze sensu.
 
 Powodzenia i udanej zabawy z kodem!
