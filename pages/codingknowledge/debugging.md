@@ -32,6 +32,13 @@ Poniżej kilka artykułów na temat debugowania:
 - [How to Debug Your Code for Beginners](https://www.freecodecamp.org/news/what-is-debugging-how-to-debug-code/)
 - [How to Debug & Fix Your Ruby Programs](https://www.rubyguides.com/2015/07/ruby-debugging/)
 
+## StackOverflow i platformy dla programistów
+Istnieje kilka platform dla programistów, które mogą być pomocne w rozwiązywaniu problemów. Jednym z najbardziej znanych miejsc jest Stack Overflow. Po wpisaniu błędu w Google, wielce możliwe jest, że to właśnie tę stronę zobaczysz jako pierwszą. SO to ogromna społeczność, gdzie ludzie pytają o problemy związane z programowaniem, a inni udzielają odpowiedzi. Możesz zadać własne pytanie; wtedy ważne jest, aby zrobić to jak najbardziej precyzyjnie i dostarczyć istotne informacje, aby uzyskać pomocne odpowiedzi. Bardziej prawdopodobne jest jednak, że ktoś zadał podobne pytanie wcześniej. Spróbuj najpierw odszukać takie pytania (czasem to kwestia kilku prób ubrania problemu w różne słowa). Kiedy już je znajdziesz, nie ograniczaj się tylko do zaakceptowanych odpowiedzi. Czasem nowsze odpowiedzi lub te z mniejszą ilością głosów mogą być równie wartościowe lub nawet bardziej aktualne. Staraj się także zerknąć w komentarze oraz zrozumieć prezentowany kod, aby nie kopiować go ślepo 🙂
+Istnieją również inne miejsca, gdzie w wymianach zdań między programistami można znaleźć przydatne wskazówki. Są to np. Issues na GitHubie, Reddit (np. r/programming, r/learnprogramming) czy tradycyjne fora dyskusyjne. Zawsze warto szukać, zanim się poddasz. Jest mało prawdopodobne, że jesteśmy jedynymi osobami na świecie, których dotknął jakiś konkretny problem 😄
+
+## ChatGPT
+Nie można nie wspomnieć o najnowszym wsparciu dla programistów, czyli sztucznej inteligencji. [ChatGPT](https://chat.openai.com/) to darmowa strona, gdzie w formie rozmowy mamy możliwość zadawania pytań. Można poprosić o wytłumaczenie w prostych słowach trudnych dla nas zagadnień, wyjaśnienie wklejonego fragmentu kodu czy uzyskać wskazówki, jak napisać dany kod. Natomiast z tym narzędziem trzeba działać ostrożnie; bardzo łatwo skopiować gotowy kod, nie rozumiejąc go zupełnie. Poza tym, do pewnych rozwiązań warto dochodzić samodzielnie. Sam ChatGPT również nie jest doskonały, bo chociaż rzadko, to potrafi z pełnym przekonaniem prezentować odpowiedzi, które nie są w ogóle poprawne 😉
+
 {: .new-title }
 > Ciekawostka
 >
