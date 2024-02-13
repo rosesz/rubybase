@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Źródła wiedzy
+title: Źródła wiedzy i tutoriale
 parent: Pisanie kodu i poszukiwanie informacji
 nav_order: 2
 ---
 ![](../../images/intros/sources.jpg){: width="250" .float-left .mr-3 }
-Źródła wiedzy
+Źródła wiedzy i tutoriale
 {: .fs-8 .ls-10 .code-example .fw-700}
 W Internecie znajduje się mnóstwo wiedzy dotyczącej podstaw programowania, więc nie koniecznie trzeba płacić za płatne kursy, żeby nauczyć się kodować. Umiejętności samodzielnego poszukiwania informacji jest bardzo ważna w pracy programisty. Dobrym źródłem zazwyczaj powinna być oficjalna dokumentacja języka (w przypadku Ruby na [Ruby-Doc](https://ruby-doc.org/)) ale tego typu materiały mogą być czasem słabo przystępne.
 Na początek najlepszym rozwiązaniem jest podążanie za tutorialem omawiającym podstawy języka. Na [tej stronie](https://www.classcentral.com/report/best-ruby-courses/) znajduje się przewodnik po różnych dostępnych kursach. Warto zwrócić uwagę, że część z nich dotyczy samego języka Ruby, a część Ruby on Rails – frameworka do tworzenia aplikacji webowych, wykorzystującego język Ruby.
