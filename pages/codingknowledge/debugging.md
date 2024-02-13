@@ -12,7 +12,6 @@ W pracy programisty codziennością jest to, że coś nie działa 🙂 Nie ma si
 {: .justify-content: space-between }
 ![](../../images/content/meme.jpg){: width="300" }
 
-
 ## Debugowanie
 Poniżej kilka rad, co można zrobić w różnych sytuacjach, kiedy kod nie funkcjonuje tak, jak chcemy:
 - Kod zwraca błąd – idealnie! Trzeba dokładnie wczytać się w wiadomość, a być może od razu znajdziemy w niej sugestię, co i gdzie zrobić, by go naprawić. Jeśli nie jest to jasne od razu, nic straconego. Najlepiej skopiować treść błędu i wkleić go w Google. Przy kopiowaniu można pominąć słowa nie mające znaczenia, jak np. nazwa użytej przez nas zmiennej. Warto też czasem opakować część tekstu w `""``, które w Google wyszukają zdanie w całości, dokładnie tak, jak zostało wpisane. Jest bardzo duża szansa, że w sieci znajdziemy osoby, które już miały podobny problem i udzielą wskazówek, co robić dalej :)
