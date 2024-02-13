@@ -8,7 +8,9 @@ nav_order: 3
 Rozwiązywanie problemów
 {: .fs-8 .ls-10 .code-example .fw-700}
 W pracy programisty codziennością jest to, że coś nie działa 🙂 Nie ma się czym przejmować, najważniejsze to umieć sobie radzić z takimi sytuacjami.
-![](../../images/content/meme.jpg){: width="400" }
+
+{: .justify-content: space-between }
+![](../../images/content/meme.jpg){: width="300" }
 
 
 ## Debugowanie
