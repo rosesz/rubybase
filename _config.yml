@@ -1,9 +1,8 @@
 title: Ruby Knowledge Base
 description: Ruby Knowledge Base
 theme: just-the-docs
-logo: "/images/logo.png"
+logo: "/assets/images/logo.png"
 url: https://rosesz.github.io/rubybase
-footer_content: "with ♥ by <a href=\"https://github.com/rosesz\">rosesz</a>"
 
 callouts:
   warning:
