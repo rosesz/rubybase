@@ -1,11 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-p {
-  font-family: Nunito;
-}
-
-p.fs-8, h3, h2 {
-  font-family: "Paytone One";
+body {
+  font-family: "Fira Sans";
 }
 
 p.fs-8 {
@@ -15,6 +11,7 @@ p.fs-8 {
     1px 1px 0 #c63d2b,
     1px -1px 0 #42afac,
     -1px -1px 0 #c6c23f;
+  font-weight: 800;
 }
 
 .site-footer {
