@@ -1,7 +1,8 @@
 title: Ruby Knowledge Base
 description: Ruby Knowledge Base
 theme: just-the-docs
-logo: "/assets/images/logo.png"
+logo: "/images/logo.png"
+favicon_ico: "/images/favicon.ico"
 url: https://rosesz.github.io/rubybase
 
 callouts:
