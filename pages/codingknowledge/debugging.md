@@ -9,7 +9,7 @@ Rozwiązywanie problemów
 {: .fs-8 .ls-10 .code-example .fw-700}
 W pracy programisty codziennością jest to, że coś nie działa 🙂 Nie ma się czym przejmować, najważniejsze to umieć sobie radzić z takimi sytuacjami.
 
-![](../../images/content/meme.jpg){: width="300" }
+![](../../images/content/meme.jpg){: width="300" .center }
 
 ## Debugowanie
 Poniżej kilka rad, co można zrobić w różnych sytuacjach, kiedy kod nie funkcjonuje tak, jak chcemy:

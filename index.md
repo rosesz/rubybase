@@ -4,4 +4,4 @@ layout: home
 nav_order: 1
 ---
 Cześć, witaj na stronie z bazą wiedzy o początkach nauki języka programowania Ruby.
-![](images/cuteruby.jpg)
+![](images/cuteruby.jpg){ .center }
