@@ -22,3 +22,6 @@ wynik = dodaj(3, 5)
 puts "Wynik dodawania: #{wynik}"
 ```
 Twoje pierwsze programy będą zapewne operować na wyświetlaniu tekstu i składały się z jednego pliku. To jednak dopiero początek, prawdziwe aplikacje to połączenie dziesiątek (jeśli nie setek) takich plików, często korzystających z wsparcia gotowych paczek (bibliotek) lub plików z zewnątrz. Dzięki temu można stworzyć naprawdę pokaźne programy posiadające również interfejs graficzny.
+
+## Składnia języka
+Pamiętaj, że w tekście kodu każdy znak czy słowo ma znaczenie, istotna jest także wielkość liter. Część komend będzie wbudowana w język i będzie przypominała angielskie słowa, część stworzysz samodzielnie nadając im własne nazwy. Ruby jest językiem dość elastycznym i pozwala na pewną swobodę, na przykład w przypadku `def dodaj(a, b)` nawiasy można pominąć, używając formy `def dodaj a, b`. Wcięcia w kodzie nie mają znaczenia, ale staraj się ich używać dla zachowania czytelności. Język angielski będzie pomocny w zrozumieniu składni, przyda się również do czytania dokumentacji, szukania rozwiązań problemów, a wreszcie w codziennej pracy do komunikacji.
