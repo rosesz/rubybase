@@ -6,6 +6,6 @@ nav_order: 1
 ## Cześć
 Witaj na stronie z bazą wiedzy o początkach nauki języka programowania Ruby. Na początek zapoznaj się ze stroną:
 
-[Zacznij tutaj]({% link /pages/starthere.html %}){: .btn .btn-purple }
+[Zacznij tutaj]({% link pages/starthere.html %}){: .btn .btn-purple }
 
 ![](images/cuteruby.jpg){: .center }
