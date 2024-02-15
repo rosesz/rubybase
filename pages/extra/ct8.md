@@ -13,7 +13,7 @@ Uruchamianie aplikacji Ruby on Rails na darmowym serwerze ct8
 ### Instalacja ruby
 
 Należy zacząć od zalogowania się do [panelu](https://panel.ct8.pl/) używając otrzymanego w mailu hasła. Konieczne będzie aktywowanie [Binexec](https://wiki.mydevil.net/Binexec), można to zrobić poprzez pozycję z menu _Dodatkowe usługi_ i następnie zakładkę _Uruchamianie własnego oprogramowania_.
-![Zezwalanie na uruchamianie własnego oprogramowania](/images/content/ct8/1.png)
+![Zezwalanie na uruchamianie własnego oprogramowania](../../images/content/ct8/1.png)
 
 Kolejnym krokiem będzie zainstalowanie ruby korzystając z [RVM](https://wiki.mydevil.net/RVM). Należy zalogować się na serwer korzystając z danych otrzymanych w mailu:
 ```shell
@@ -41,17 +41,17 @@ gem install bundler
 ### Tworzenie strony
 
 Pierwszy krok jest opcjonalny, jeśli nie mamy własnej domeny. Można ją dodać pozycji menu _Strefy DNS_ w zakładce _Dodaj nową strefę_.
-![Dodawanie domeny](/images/content/ct8/2.png)
+![Dodawanie domeny](../../images/content/ct8/2.png)
 
 W końcu możemy przejść do tworzenia strony. Aby to zrobić należy wybrać _Strony WWW_, a następnie _Dodaj nową stronę_. W polu _Typ strony_ trzeba wybrać _Ruby_. Pojawi się wtedy kolejne pole _Plik wykonywalny ruby_, gdzie należy wybrać plik z listy lub ręcznie podać lokalizację interpretera ruby. Ostatnim polem koniecznym do uzupełnienia jest _Konfiguracja_ (produkcyjna, staging, deweloperska, testowa). Podczas stawiania pierwszej, testowej aplikacji może być warto wybrać wersję deweloperską, ze względu na jasne komunikaty z błędami.
-![Tworzenie nowej strony](/images/content/ct8/3.png)
+![Tworzenie nowej strony](../../images/content/ct8/3.png)
 
 W tym momencie mamy dostępny na serwerze katalog `/usr/home/login/domains/DOMENA/public_ruby/`, w którym będzie można umiejscowić [projekt Ruby on Rails](https://wiki.mydevil.net/Ruby_on_Rails).
 
 ### Baza danych
 
 Bazę danych tworzymy z pozycji menu _MySQL_ lub _PostgreSQL_ w zależności od tego, której z nich chcemy użyć, zakładce _Dodaj bazę_. Poniższy przykład dotyczył będzie _PostgreSQL_. Uzupełniamy pole z nazwą, która będzie w formacie `pXXXXX_nazwabazy` oraz hasło.
-![Dodawanie domeny](/images/content/ct8/4.png)
+![Dodawanie domeny](../../images/content/ct8/4.png)
 Logując się przez SSH możemy sprawdzić dostęp do bazy. Zdalny dostęp do bazy w darmowej wersji hostingu nie jest możliwy.
 ```shell
 pg_isready -d pXXXXX_nazwabazy -h pgsql.ct8.pl -p 5432 -U pXXXXX_nazwabazy
