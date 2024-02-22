@@ -71,7 +71,7 @@ production:
   host: 'pgsql.ct8.pl'
 ```
 
-Wrażliwe dane najlepiej przechowywać w zmiennych środowiskowych. Możemy dopisać je do pliku ` ~/.bash_profile`.
+Wrażliwe dane najlepiej przechowywać w zmiennych środowiskowych. Możemy dopisać je do pliku `~/.bash_profile`.
 ```shell
 nano ~/.bash_profile
 ```
@@ -81,7 +81,10 @@ DATABASE_PASSWORD=password
 ```shell
 source ~/.bash_profile
 ```
-
+lub
+```shell
+source ~/.bashrc
+```
 ### Deployment
 
 W tym momencie wystarczy umieścić kod aplikacji w katalogu `/usr/home/login/domains/DOMENA/public_ruby/`. Należy też pamiętać o zainstalowaniu zależności:
@@ -119,6 +122,7 @@ Aby możliwe było użycie capistrano, na serwerze należy jeszcze uruchomić po
 ssh-keygen -t rsa -C "your_email@example.com"
 cat ~/.ssh/id_rsa.pub
 ```
+I dodanie klucza na GH.
 
 Dodatkowo konieczna może być edycja Gemfile:
 ```ruby
